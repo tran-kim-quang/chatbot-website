@@ -1,0 +1,56 @@
+{
+    "intents":[
+      {
+        "tag": "chào hỏi",
+        "patterns":[
+          "Xin chào",
+          "hi",
+          "hello"
+        ],
+        "responses":[
+          "Chào bạn",
+          "Xin chào bạn!"
+        ]
+      },
+      {
+        "tag": "sản phẩm",
+        "patterns":[
+          "bạn bán những sản phẩm nào?",
+          "bạn có những mặt hàng nào?",
+          "bạn bán những gì?",
+          "bạn có bán đồ dùng khác ngoài quần áo không?"
+        ],
+        "responses":[
+          "chúng tôi chỉ bán quần áo dành cho độ tuổi từ 15-30.",
+          "chúng tôi chỉ kinh doanh quần áo cho độ tuổi từ 15-30."
+        ]
+      },
+      {
+        "tag": "vận chuyển",
+        "patterns":[
+          "hình thức vận chuyển như thế nào?",
+          "tiền ship như thế nào?",
+          "bạn có nhận ship không?",
+          "giá vận chuyển như thế nào?"
+        ],
+        "responses":[
+          "Chúng tôi miễn phí vận chuyển cho đơn hơn hàng có khoảng cách dưới 10km, trên 10km sẽ tiền ship sẽ bằng 10% tổng sản phẩm.",
+          "Ship miễn phí cho khách hàng có khoảng cách từ 10km đổ xuống, trên 10km sẽ tính bằng 10% tổng sản phẩm."
+        ]
+      },
+      {
+        "tag":"tư vấn",
+        "patterns":[
+          "tôi nên mặc size gì?",
+          "kích cỡ quần áo như nào thích hợp với tôi?",
+          "tư vấn giúp tôi nên chọn size nào?",
+          "tôi nên chọn kích thước như nào?",
+          "tôi nên chọn kích cỡ như nào?",
+          "kích cỡ nào phù hợp với tôi?"
+        ],
+        "responses":[
+          "Chiều cao 1m7 cân nặng 60 đến 70 kg thì size M sẽ phù hợp với bạn.\nChiều cao của bạn từ 1m8 trở lên, cân nặng từ 70kg thì size L sẽ phù hợp với bạn.\nNếu bạn trên 1m8 và cân nặng trên 70kg thì size XL sẽ phù hợp với bạn."
+        ]
+      }
+    ]
+  }
